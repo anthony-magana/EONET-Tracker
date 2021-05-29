@@ -13,7 +13,7 @@ function Map({eventData, center, zoom}) {
                 lat={ev.geometries[0].coordinates[1]} 
                 lng={ev.geometries[0].coordinates[0]} 
                 onClick={() => {
-                    setLocationInfo({id: ev.id, title: ev.title}) 
+                    setLocationInfo({id: ev.id, title: ev.title, date: ev.geometries[0].date}) 
                     setClicked(true) 
                 }}
                 key={ev.id}

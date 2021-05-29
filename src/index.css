@@ -70,7 +70,11 @@ body {
 }
 .location-info p {
     font-size: 14px;
-
+    margin: 0;
+    padding-top: -5px;
+}
+.location-info h2 {
+    margin:0;
 }
 
 .location-marker{
@@ -80,4 +84,16 @@ body {
     display: none;
 }
 
+
+@media screen and (max-width: 675px) {
+    .location-info {
+        width: 200px;
+        min-height: 80px;
+        font-size: 14px;
+    }
+    .location-info h2 {
+        font-size: 20px;
+    }
+    
+}
 
