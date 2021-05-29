@@ -68,3 +68,16 @@ body {
 .location-info li {
     padding: 5px 0;
 }
+.location-info p {
+    font-size: 14px;
+
+}
+
+.location-marker{
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+
+
