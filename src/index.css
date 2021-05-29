@@ -31,6 +31,10 @@ body {
     font-size: 2rem;
     color:red;
 }
+.storm-icon {
+    font-size: 2rem;
+    color:blue;
+}
 
 .loader{
     display: flex;
