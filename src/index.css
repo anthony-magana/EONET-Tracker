@@ -36,6 +36,10 @@ body {
     color:blue;
 }
 
+.volcano-icon {
+    font-size: 2rem;
+}
+
 .loader{
     display: flex;
     flex-direction: column;
