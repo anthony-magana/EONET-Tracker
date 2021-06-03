@@ -10,14 +10,14 @@ function Map({eventData, center, zoom}) {
     const [stormInfo, setStormInfo] = useState(null)
     const [fireClicked, setFireClicked] = useState(true)
     const [stormClicked, setStormClicked] = useState(true)
-
+    
     const fireMarkers = eventData.map(ev => {
-        if(ev.categories[0].id === 8){
+        if(ev.closed === null && ev.categories[0].id === "wildfires"){
             return <FireMarker 
-                lat={ev.geometries[0].coordinates[1]} 
-                lng={ev.geometries[0].coordinates[0]} 
+                lat={ev.geometry[0].coordinates[1]} 
+                lng={ev.geometry[0].coordinates[0]} 
                 onClick={() => {
-                    setFireInfo({id: ev.id, category: ev.categories[0].title, title: ev.title, date: ev.geometries[0].date}) 
+                    setFireInfo({id: ev.id, category: ev.categories[0].title, title: ev.title, date: ev.geometry[0].date}) 
                     setFireClicked(true)
                     setStormClicked(false) 
                 }}
@@ -27,12 +27,12 @@ function Map({eventData, center, zoom}) {
         return null
     })
     const stormMarkers = eventData.map(ev => {
-        if(ev.categories[0].id === 10){
+        if(ev.closed === null && ev.categories[0].id === "severeStorms"){
             return <StormMarker 
-                lat={ev.geometries[0].coordinates[1]} 
-                lng={ev.geometries[0].coordinates[0]} 
+                lat={ev.geometry[0].coordinates[1]} 
+                lng={ev.geometry[0].coordinates[0]} 
                 onClick={() => {
-                    setStormInfo({id: ev.id, category: ev.categories[0].title, title: ev.title, date: ev.geometries[0].date}) 
+                    setStormInfo({id: ev.id, category: ev.categories[0].title, title: ev.title, date: ev.geometry[0].date}) 
                     setStormClicked(true) 
                     setFireClicked(false)
                 }}
