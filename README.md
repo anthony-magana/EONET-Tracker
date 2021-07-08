@@ -1,5 +1,7 @@
 # EONET-Tracker 🔥⛈🌋
 
+[Website](https://eonet-tracker.netlify.app/)
+
 Single Page Application that utilizes NASA's EONET api for data on current live natural events happening around the world while also implementing the Google Maps api allowing user interaction with NASA's EONET data, like its geographic location of each natural event as well as information about the event. This project also utilizes iconify for the icons of each event displayed on the map.
 
 ## Features
