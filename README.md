@@ -1,17 +1,27 @@
 # EONET-Tracker
-Single Page Application that utilizes NASA's EONET api for data on natural events happening around the world while implementing the Google Maps api allowing user interaction with NASA's EONET data like its geographic location of each natural event as well as information about the event. This project also utilizes iconify for the icons of each event displayed on the map.
 
-## Available Scripts
+Single Page Application that utilizes NASA's EONET api for data on current live natural events happening around the world while also implementing the Google Maps api allowing user interaction with NASA's EONET data, like its geographic location of each natural event as well as information about the event. This project also utilizes iconify for the icons of each event displayed on the map.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+Allows user interaction with google maps.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Displays markers that are either fires, volcanoes, or storms around the world to the exact position where the natural event is taking place.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Markers are clickable which displays an info box about the natural event such as the ID, Title, Category, and Date.
+
+Info box closes when you click outside if the info box area.
+
+## Installation
+
+1. Clone repository
+2. Run `npm install` to install project dependencies.
+3. Run `npm start` to run the app in development mode.\
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.\
+   The page will reload if you make edits.\
+   You will also see any lint errors in the console.
+
+In the project directory, you can also run:
 
 ### `npm test`
 
