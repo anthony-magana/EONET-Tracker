@@ -15,8 +15,9 @@ Info box closes when you click outside if the info box area.
 ## Installation
 
 1. Clone repository
-2. Run `npm install` to install project dependencies.
-3. Run `npm start` to run the app in development mode.\
+2. cd to project directory.
+3. Run `npm install` to install project dependencies.
+4. Run `npm start` to run the app in development mode.\
    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.\
    The page will reload if you make edits.\
    You will also see any lint errors in the console.
