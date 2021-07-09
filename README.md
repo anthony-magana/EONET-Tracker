@@ -1,4 +1,4 @@
-<h1 align="center">EONET-Tracker 🔥⛈🌋</h1>
+<h1 align="left">EONET-Tracker 🔥⛈🌋</h1>
 
 <div align="center">
 
