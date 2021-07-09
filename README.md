@@ -1,6 +1,6 @@
 <h1 align="left">EONET-Tracker 🔥⛈🌋</h1>
 
-<div align="center">
+<div align="left">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 ![Issues](https://img.shields.io/github/issues/anthony-magana/EONET-Tracker)
