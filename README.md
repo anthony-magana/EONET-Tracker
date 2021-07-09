@@ -24,7 +24,7 @@ Markers are clickable which displays an info box about the natural event such as
 
 Info box closes when you click outside if the info box area.
 
-## 🔨 Installation\
+## 🔨 Installation
 
 1. Clone repository
 2. cd to project directory.
@@ -34,7 +34,7 @@ Info box closes when you click outside if the info box area.
    The page will reload if you make edits.\
    You will also see any lint errors in the console.
 
-### In the project directory, you can also run:
+### 🔧 In the project directory, you can also run
 
 #### `npm test`
 
