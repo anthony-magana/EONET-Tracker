@@ -1,8 +1,12 @@
-# EONET-Tracker 🔥⛈🌋
+<h1 align="center">EONET-Tracker 🔥⛈🌋</h1>
+
+<div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 ![Issues](https://img.shields.io/github/issues/anthony-magana/EONET-Tracker)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/anthony-magana/EONET-Tracker.svg)](https://github.com/anthony-magana/EONET-Tracker/pulls)
+
+</div>
 
 ---
 
