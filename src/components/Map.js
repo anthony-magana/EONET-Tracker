@@ -1,6 +1,7 @@
 import {useState} from 'react'
 
 import GoogleMapReact from 'google-map-react'
+import GOOGLE_MAPS_API_KEY from '../apikey';
 import FireMarker from './FireMarker'
 import StormMarker from './StormMarker'
 import VolcanoMarker from './VolcanoMarker'
@@ -66,7 +67,7 @@ function Map({eventData, center, zoom}) {
     return (
         <div className="map" >
             <GoogleMapReact
-                bootstrapURLKeys={{ key:'AIzaSyCKzQ-JkRb4XExRUuCq4z2fLGgXvI5su6U' }}
+                bootstrapURLKeys={{ key: GOOGLE_MAPS_API_KEY }}
                 defaultCenter={center}
                 defaultZoom={zoom}
                 onClick={() => {
